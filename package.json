@@ -6,8 +6,7 @@
   "scripts": {
     "test": "clear && pnpm jest --watchAll",
     "measure": "clear && AMOUNT_OF_ORDERS=1000000 tsx --expose-gc measurePerformance.ts",
-    "start": "clear && tsx index.ts",
-    "testRedBlackTreeOrderBook": "clear && tsx watch testRedBlackTreeOrderBook.ts"
+    "start": "clear && tsx index.ts"
   },
   "keywords": [],
   "author": "",

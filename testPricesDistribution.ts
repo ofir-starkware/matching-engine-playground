@@ -120,10 +120,10 @@ export const pricesDistributionTest = [
     name: "Completely Distinct Prices",
     test: testCompletelyDistinctPrices,
   },
-  // {
-  //   name: "Prices in Normal Distribution",
-  //   test: testPricesInNormalDistribution,
-  // },
+  {
+    name: "Prices in Normal Distribution",
+    test: testPricesInNormalDistribution,
+  },
   {
     name: "Perfectly Matched Distinct Prices",
     test: testPerfectlyMatchedDistinctPrices,
