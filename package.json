@@ -1,0 +1,29 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear && pnpm jest --watchAll",
+    "measure": "clear && AMOUNT_OF_ORDERS=1000000 tsx --expose-gc measurePerformance.ts",
+    "start": "clear && tsx index.ts",
+    "testRedBlackTreeOrderBook": "clear && tsx watch testRedBlackTreeOrderBook.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "data-structure-typed": "^1.53.1",
+    "nodejs-order-book": "^8.1.0",
+    "sonic-forest": "^1.0.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
